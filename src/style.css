@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "tapsi-reg";
+    src: url("./assets/fonts/Tapsi-Regular.ttf");
+}
+
+@font-face {
+    font-family: "tapsi-bold";
+    src: url("./assets/fonts/Tapsi-Bold.ttf");
+}
+
+@font-face {
+    font-family: "tapsi-extra";
+    src: url("./assets/fonts/Tapsi-ExtraBold.ttf");
+}
+
+@theme {
+    --font-sans: "tapsi-reg";
+}
+
+.tapsi-bold {
+    font-family: "tapsi-bold";
+}
+
+.tapsi-extra {
+    font-family: "tapsi-extra";
+}

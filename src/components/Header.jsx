@@ -5,7 +5,7 @@ function Header() {
   return (
     <>
       <header>
-        <div className='header grid grid-cols-4 items-center p-3 w-full fixed'>
+        <div className='header grid grid-cols-4 items-center p-3 w-full fixed bg-white'>
           <div className="brand col-span-1 flex items-center gap-2">
             <img src="/favicon.ico" alt="tapsi logo" className='w-10 hover:cursor-pointer' />
             <span className='tapsi-bold text-xl hover:cursor-pointer'>Tapsi</span>

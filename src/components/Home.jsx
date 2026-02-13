@@ -5,7 +5,7 @@ import Services from './Services'
 function Home() {
     return (
         <>
-            <main>
+            <main className='z-10'>
                 <Hero />
                 <Services />
             </main>

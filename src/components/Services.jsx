@@ -11,7 +11,7 @@ function Services() {
                 <div className="services-heading">
                     <h2 className='text-3xl text-center lg:text-left mb-10'>Tapsi Services</h2>
                 </div>
-                <div className="services-container grid grid-cols-3 grid-rows-2 lg:grid-cols-6 lg:grid-rows-1 gap-5">
+                <div className="services-container grid grid-cols-3 grid-rows-2 lg:grid-cols-6 lg:grid-rows-1 gap-5 z-0">
                     <div className="service col-span-1 classic group hover:cursor-pointer" onClick={() => setOpen("classic")}>
                         <div className="service-img flex justify-center mb-4">
                             <img src="/cc-classic.webp" alt="service icon" className={`w-25 ${isOpen == "classic" ? "opacity-100" : "opacity-50"} transition-all group-hover:opacity-75`} />

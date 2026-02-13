@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from './Hero'
 import Services from './Services'
 import DriverRegister from './DriverRegister'
+import CompanyPlans from './CompanyPlans'
 
 function Home() {
     return (
@@ -10,6 +11,7 @@ function Home() {
                 <Hero />
                 <Services />
                 <DriverRegister />
+                <CompanyPlans />
             </main>
         </>
     )

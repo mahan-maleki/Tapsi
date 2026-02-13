@@ -4,6 +4,7 @@ import Services from './Services'
 import DriverRegister from './DriverRegister'
 import CompanyPlans from './CompanyPlans'
 import InstallApp from './InstallApp'
+import BlogPosts from './BlogPosts'
 
 function Home() {
     return (
@@ -14,6 +15,7 @@ function Home() {
                 <DriverRegister />
                 <CompanyPlans />
                 <InstallApp />
+                <BlogPosts />
             </main>
         </>
     )

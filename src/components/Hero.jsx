@@ -7,8 +7,8 @@ function Hero() {
                 <div>
                     <h1 className='text-4xl/relaxed tapsi-bold hl text-center lg:text-left'>With Tapsi Super Applciation,<br />Life is at your command.</h1>
                     <div className='flex-col items-center mt-15'>
-                        <button className='text-md text-white bg-gray-950 px-6 py-6 rounded-full mr-2 hover:cursor-pointer w-full lg:w-75 hover:bg-gray-700 transition-all mb-3'>Download Traveler Application</button>
-                        <button className='text-md text-black bg-white border-2 px-6 py-6 rounded-full hover:cursor-pointer w-full lg:w-75'>Web Application Version (PWA)</button>
+                        <button className='text-lg text-white bg-gray-950 px-4 py-6 rounded-full mr-2 hover:cursor-pointer w-full lg:w-75 hover:bg-gray-700 transition-all mb-3'>Download Traveler Application</button>
+                        <button className='text-lg text-black bg-white border-2 px-4 py-6 rounded-full hover:cursor-pointer w-full lg:w-75'>Web Application Version (PWA)</button>
                     </div>
                 </div>
             </div>
